@@ -1,0 +1,9 @@
+{"to":"thanos","from":"thanos","value":3,"reason":""}
+{"to":"thanos","from":"thanos","value":700,"reason":"reward"}
+{"to":"maw","from":"thanos","value":2000,"reason":""}
+{"to":"thanos","from":"thanos","value":100,"reason":"reward"}
+{"to":"thanos","from":"maw","value":1,"reason":""}
+{"to":"proxima","from":"maw","value":1000,"reason":""}
+{"to":"thanos","from":"maw","value":50,"reason":""}
+{"to":"thanos","from":"thanos","value":100,"reason":"reward"}
+{"to":"thanos","from":"thanos","value":100,"reason":"reward"}

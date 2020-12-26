@@ -1,0 +1,8 @@
+{
+  "genesis_time": "2020-11-12T00:00:00.000000000Z",
+  "chain_id": "the-unblockchain-bar-ledger",
+  "balances": {
+    "thanos": 1000000
+  }
+
+}
