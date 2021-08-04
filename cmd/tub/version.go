@@ -7,9 +7,9 @@ import (
 
 const (
 	major = "0"
-	minor = "1"
-	fix = "1"
-	verbal = "Tx add and balances list"
+	minor = "7"
+	fix = "2"
+	verbal = "Sync"
 )
 
 var versionCmd = &cobra.Command{

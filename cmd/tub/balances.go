@@ -12,12 +12,13 @@ func balancesCmd() *cobra.Command {
 		Use:   "balances",
 		Short: "Wrapper to manage balances (list and other commands",
 		PreRunE: func(cmd *cobra.Command, args []string) error{
-			return fmt.Errorf("incorrect usage")
+			return incorrectUsageErr()
 		},
 		Run: func(cm *cobra.Command, args []string) {
 
 		},
 	}
+	addDefaultRequiredCmds(balancesListCmd)
 	balancesCmd.AddCommand(balancesListCmd)
 	return balancesCmd
 }
@@ -27,7 +28,7 @@ var balancesListCmd = &cobra.Command{
 	Short: "Lists balances",
 	Long:  "Lists balances in the state component",
 	Run: func(cmd *cobra.Command, args []string) {
-		state, err := database.NewStateFromDisk()
+		state, err := database.NewStateFromDisk(getDataDirFromCmd(cmd))
 		if err != nil {
 			fmt.Fprintln(os.Stderr, err)
 			os.Exit(1)

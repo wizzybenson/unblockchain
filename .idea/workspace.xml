@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aacda3c6-8b11-4fc8-894b-254e31062ee1" name="Default Changelist" comment="" />
+    <list default="true" id="aacda3c6-8b11-4fc8-894b-254e31062ee1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cmd/tub/migrate.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/tub/run.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/tub/wallet.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/database.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/fs.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fs/fs.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fs/unicode.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/http_req_res_utils.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/http_routes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/miner.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/miner_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/node.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/node_integration_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/sync.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/test_maw--07a91aaceee215cbaccf5407dbbabbe92d160be7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/test_thanos--625f385c6b56d03e1eb38c7e34313a3e1898f62c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/wallet.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/wallet_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/tub/balances.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/tub/balances.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/tub/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/tub/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/tub/tx.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/tub/version.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/tub/version.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/tubmigrate/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/account.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/block.go" beforeDir="false" afterPath="$PROJECT_DIR$/database/block.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/genesis.go" beforeDir="false" afterPath="$PROJECT_DIR$/database/genesis.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/state.go" beforeDir="false" afterPath="$PROJECT_DIR$/database/state.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/tx.go" beforeDir="false" afterPath="$PROJECT_DIR$/database/tx.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +46,10 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="/usr/local/go1.13.5.linux-amd64" />
+  <component name="GOROOT" url="file:///usr/lib/go-1.13" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
@@ -26,16 +61,19 @@
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.tub" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/node" />
       <recent name="$PROJECT_DIR$/cmd" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github/wizzybenson/unblockchain/cmd/tub">
+  <component name="RunManager" selected="Go Test.TestNode_Mining in github/wizzybenson/unblockchain/node">
     <configuration name="go build github/wizzybenson/unblockchain/cmd/tub" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="unblockchain" />
       <working_directory value="$PROJECT_DIR$" />
@@ -54,8 +92,44 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestNode_Mining in github/wizzybenson/unblockchain/node" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="unblockchain" />
+      <working_directory value="$PROJECT_DIR$/node" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github/wizzybenson/unblockchain/node" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestNode_Mining\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestNode_Run in github/wizzybenson/unblockchain/node" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="unblockchain" />
+      <working_directory value="$PROJECT_DIR$/node" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github/wizzybenson/unblockchain/node" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestNode_Run\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestValidBlockHash in github/wizzybenson/unblockchain/node" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="unblockchain" />
+      <working_directory value="$PROJECT_DIR$/node" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github/wizzybenson/unblockchain/node" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestValidBlockHash\E$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestNode_Mining in github/wizzybenson/unblockchain/node" />
+        <item itemvalue="Go Test.TestNode_Run in github/wizzybenson/unblockchain/node" />
+        <item itemvalue="Go Test.TestValidBlockHash in github/wizzybenson/unblockchain/node" />
         <item itemvalue="Go Build.go build github/wizzybenson/unblockchain/cmd/tub" />
         <item itemvalue="Go Build.go build state.go" />
       </list>
@@ -65,49 +139,40 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
-  <component name="WindowStateProjectService">
-    <state x="417" y="185" width="566" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605720203462">
-      <screen x="49" y="27" width="1317" height="741" />
-    </state>
-    <state x="417" y="185" width="566" height="396" key="#com.intellij.fileTypes.FileTypeChooser/49.27.1317.741@49.27.1317.741" timestamp="1605720203462" />
-    <state x="463" y="128" key="#xdebugger.evaluate" timestamp="1606938015873">
-      <screen x="49" y="27" width="1317" height="741" />
-    </state>
-    <state x="463" y="128" key="#xdebugger.evaluate/49.27.1317.741@49.27.1317.741" timestamp="1606938015873" />
-    <state width="1251" height="202" key="GridCell.Tab.0.bottom" timestamp="1606943068898">
-      <screen x="49" y="27" width="1317" height="741" />
-    </state>
-    <state width="1251" height="202" key="GridCell.Tab.0.bottom/49.27.1317.741@49.27.1317.741" timestamp="1606943068898" />
-    <state width="1251" height="202" key="GridCell.Tab.0.center" timestamp="1606943068895">
-      <screen x="49" y="27" width="1317" height="741" />
-    </state>
-    <state width="1251" height="202" key="GridCell.Tab.0.center/49.27.1317.741@49.27.1317.741" timestamp="1606943068895" />
-    <state width="1251" height="202" key="GridCell.Tab.0.left" timestamp="1606943068893">
-      <screen x="49" y="27" width="1317" height="741" />
-    </state>
-    <state width="1251" height="202" key="GridCell.Tab.0.left/49.27.1317.741@49.27.1317.741" timestamp="1606943068893" />
-    <state width="1251" height="202" key="GridCell.Tab.0.right" timestamp="1606943068896">
-      <screen x="49" y="27" width="1317" height="741" />
-    </state>
-    <state width="1251" height="202" key="GridCell.Tab.0.right/49.27.1317.741@49.27.1317.741" timestamp="1606943068896" />
-    <state width="1251" height="202" key="GridCell.Tab.1.bottom" timestamp="1606943068905">
-      <screen x="49" y="27" width="1317" height="741" />
-    </state>
-    <state width="1251" height="202" key="GridCell.Tab.1.bottom/49.27.1317.741@49.27.1317.741" timestamp="1606943068905" />
-    <state width="1251" height="202" key="GridCell.Tab.1.center" timestamp="1606943068902">
-      <screen x="49" y="27" width="1317" height="741" />
-    </state>
-    <state width="1251" height="202" key="GridCell.Tab.1.center/49.27.1317.741@49.27.1317.741" timestamp="1606943068902" />
-    <state width="1251" height="202" key="GridCell.Tab.1.left" timestamp="1606943068900">
-      <screen x="49" y="27" width="1317" height="741" />
-    </state>
-    <state width="1251" height="202" key="GridCell.Tab.1.left/49.27.1317.741@49.27.1317.741" timestamp="1606943068900" />
-    <state width="1251" height="202" key="GridCell.Tab.1.right" timestamp="1606943068904">
-      <screen x="49" y="27" width="1317" height="741" />
-    </state>
-    <state width="1251" height="202" key="GridCell.Tab.1.right/49.27.1317.741@49.27.1317.741" timestamp="1606943068904" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/node/node_integration_test.go</url>
+          <line>28</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/node/node_integration_test.go</url>
+          <line>104</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/database/genesis.go</url>
+          <line>25</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
